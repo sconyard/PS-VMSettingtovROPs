@@ -3,7 +3,7 @@
     .REQUIREMENTS: VMware PowerCLI including VMware.VimAutomation.vROps module
     .NOTES  Author:  Simon Conyard
     .NOTES  Site:    www.virtual-simon.co.uk
-    .NOTES  Reference:  
+    .NOTES  Reference:  https://virtual-simon.co.uk/adding-virtual-machine-advanced-settings-to-custom-properties-in-vrealize-operations/
 #>
 
 #Ask for variable values for Advanced Settings and StatKey
