@@ -17,17 +17,17 @@ $cluster = Read-Host -Prompt "Enter the connected Cluster Name from the list abo
 
 $VMS = Get-VM -location $cluster
 
-#Test to see if Advanced Setting exists and either right out "nothing to do!" or pass to the elements that call the addproperty method
+#Test to see if Advanced Setting exists and either write out "nothing to do!" or pass to the elements that call the addproperty method
 foreach($VM in $VMS){
     $n = ("$($VM.name)")
     $OMResource = Get-OMResource $n
 
     $value = Get-AdvancedSetting -Entity $VM -Name $Advsetting -ErrorAction SilentlyContinue
 if ($value -eq $null) {
-    write-host ("$Advsetting is not set on the $VM! Nothing to Do!") -ForegroundColor DarkGreen -BackgroundColor White
+    write-host ("$Advsetting is not set on VC object $VM! Nothing to Do!") -ForegroundColor DarkGreen -BackgroundColor White
     }
 else {
-    write-host ("$Advsetting is set on the $VM! Writing value to vRealize Operations Manager!") -ForegroundColor White -BackgroundColor DarkGreen
+    write-host ("$Advsetting is set on VC object $VM! Writing value to vRealize Operations Manager!") -ForegroundColor White -BackgroundColor DarkGreen
 
     $contentprops = New-Object VMware.VimAutomation.vROps.Views.PropertyContents
     $contentprop = New-Object VMware.VimAutomation.vROps.Views.PropertyContent
