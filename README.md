@@ -20,7 +20,11 @@ This script collects values from the advanced settings of Virtual Machines objec
 
 ##### PowerShell
 
+![PowerShell Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/master/images/PS_Example.png)
+
 ##### vRealize Operations Manager
+
+![vROps Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/master/images/vROPs_example.png)
 
 #### Support
 
@@ -28,8 +32,8 @@ No support offered or liability accepted use this script at your own risk.
 
 This script was built and tested using;
 
-VMware.VimAutomation.vROps version 12.0.0.15940184.
-Vmware.VimAutomation.Core version 12.0.0.15939655.
-VMware vRealize Operations Manager 8.1.0 Enterprise Edition.
-VMware ESXi 7.0.0 15843807
-VMware vCenter 7.0.0 15952599
+1. VMware.VimAutomation.vROps version 12.0.0.15940184.
+2. Vmware.VimAutomation.Core version 12.0.0.15939655.
+3. VMware vRealize Operations Manager 8.1.0 Enterprise Edition.
+4. VMware ESXi 7.0.0 15843807
+5. VMware vCenter 7.0.0 15952599
