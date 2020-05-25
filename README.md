@@ -16,7 +16,7 @@ This script collects values from the advanced settings of Virtual Machines objec
 2. An existing connection to Virtual Centre
 3. An existing connection to vRealize Operations Manager
 
-#### Ouput Example
+#### Output Example
 
 ##### PowerShell
 
