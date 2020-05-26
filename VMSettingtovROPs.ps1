@@ -8,7 +8,7 @@
 
 #Ask for variable values for Advanced Settings and StatKey
 $Advsetting = Read-Host -Prompt "Enter the Virtual Machine advanced setting string exactly as it is listed e.g. tools.guest.desktop.autolock"
-$statkey = Read-Host -Promt "Enter the vRealize Operations Manager property location to display the property value e.g. import|desktopAutolock"
+$statkey = Read-Host -Propmt "Enter the vRealize Operations Manager property location to display the property value e.g. import|desktopAutolock"
 
 #Ask for a VMware Cluster to target 
 $allclusters = Get-Cluster
