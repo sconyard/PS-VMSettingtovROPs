@@ -23,7 +23,7 @@ foreach($VM in $VMS){
     $OMResource = Get-OMResource $n
 
     $value = Get-AdvancedSetting -Entity $VM -Name $Advsetting -ErrorAction SilentlyContinue
-if ($value -eq $null) {
+if ($null -eq $value) {
     write-host ("$Advsetting is not set on VC object $VM! Nothing to Do!") -ForegroundColor DarkGreen -BackgroundColor White
     }
 else {
