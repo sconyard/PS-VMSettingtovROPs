@@ -20,11 +20,11 @@ This script collects values from the advanced settings of Virtual Machines objec
 
 ##### PowerShell
 
-![PowerShell Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/master/images/PS_Example.png)
+![PowerShell Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/main/images/PS_Example.png)
 
 ##### vRealize Operations Manager
 
-![vROps Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/master/images/vROPs_example.png)
+![vROps Output Example](https://raw.githubusercontent.com/sconyard/PS-VMSettingtovROPs/main/images/vROPs_example.png)
 
 #### Support
 
